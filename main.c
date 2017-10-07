@@ -50,6 +50,11 @@ int main( int argc, char *argv[] )
 
 	char *physmem = page_table_get_physmem(pt);
 
+	for (int i=0; i<nframes; i++)
+	{
+		page_table_set_entry(pt,i,i,PROT_READ|PROT_WRITE);
+	}
+	
 	if(!strcmp(program,"sort")) {
 		sort_program(virtmem,npages*PAGE_SIZE);
 
