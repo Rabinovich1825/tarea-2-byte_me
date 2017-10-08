@@ -28,22 +28,17 @@ void page_fault_handler( struct page_table *pt, int page )
 	if (!(strcmp("fifo", algor)))
 	{
 		char *pm = page_table_get_physmem(pt);
-		const char aux = pm[last_frame_alterate*PAGE_SIZE];
-		disk_write(disk, frame_table[last_frame_alterate], &aux);
+		const char *aux = &(pm[last_frame_alterate*PAGE_SIZE]);
+		disk_write(disk, page, aux);
 		writen_to_blocks[frame_table[last_frame_alterate]] = 1;
-		//printf("%d\n", writen_to_blocks[page]);
 		if (writen_to_blocks[page])
 		{
-			char aux1 = pm[last_frame_alterate*PAGE_SIZE];
-			disk_read(disk, page, &aux1);
+			char *aux1 = &(pm[last_frame_alterate*PAGE_SIZE]);
+			disk_read(disk, page, aux1);
 			writen_to_blocks[page] = 0;
 		}
 		page_table_set_entry(pt,page, last_frame_alterate, PROT_READ|PROT_WRITE);
 		page_table_set_entry(pt,frame_table[last_frame_alterate],last_frame_alterate,0);
-		page_table_print(pt);
-		printf("\n");
-		page_table_print_entry(pt, page);
-		printf("\n");
 		frame_table[last_frame_alterate] = page;
 		last_frame_alterate++;
 		if(last_frame_alterate == nframes) last_frame_alterate = 0;
@@ -105,10 +100,6 @@ int main( int argc, char *argv[] )
 	for (int i=0; i<nframes; i++)
 	{
 		page_table_set_entry(pt,i,i,PROT_READ|PROT_WRITE);
-		page_table_print(pt);
-		printf("\n");
-		page_table_print_entry(pt, i);
-		printf("\n");
 		frame_table[i] = i;
 		last_frame_alterate++;
 		if(last_frame_alterate == nframes) last_frame_alterate = 0;
