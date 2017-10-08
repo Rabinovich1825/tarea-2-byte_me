@@ -53,6 +53,7 @@ int main( int argc, char *argv[] )
 	for (int i=0; i<nframes; i++)
 	{
 		page_table_set_entry(pt,i,i,PROT_READ|PROT_WRITE);
+		if (i == npages-1) break;
 	}
 	
 	if(!strcmp(program,"sort")) {
