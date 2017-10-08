@@ -15,22 +15,46 @@ how to use the page table and disk interfaces.
 #include <string.h>
 #include <errno.h>
 
+static int npages;
+static int nframes;
 static char* algor;
 static int* frame_table;
+static struct disk *disk;
+static int last_frame_alterate;
+static int* writen_to_blocks;
 
 void page_fault_handler( struct page_table *pt, int page )
 {
-	if (strcmp("fifo", algor))
+	if (!(strcmp("fifo", algor)))
+	{
+		char *pm = page_table_get_physmem(pt);
+		const char aux = pm[last_frame_alterate*PAGE_SIZE];
+		disk_write(disk, frame_table[last_frame_alterate], &aux);
+		writen_to_blocks[frame_table[last_frame_alterate]] = 1;
+		//printf("%d\n", writen_to_blocks[page]);
+		if (writen_to_blocks[page])
+		{
+			char aux1 = pm[last_frame_alterate*PAGE_SIZE];
+			disk_read(disk, page, &aux1);
+			writen_to_blocks[page] = 0;
+		}
+		page_table_set_entry(pt,page, last_frame_alterate, PROT_READ|PROT_WRITE);
+		page_table_set_entry(pt,frame_table[last_frame_alterate],last_frame_alterate,0);
+		page_table_print(pt);
+		printf("\n");
+		page_table_print_entry(pt, page);
+		printf("\n");
+		frame_table[last_frame_alterate] = page;
+		last_frame_alterate++;
+		if(last_frame_alterate == nframes) last_frame_alterate = 0;
+	}
+
+	else if (!(strcmp("rand", algor)))
 	{
 
 	}
 
-	else if (strcmp("rand", algor))
-	{
-
-	}
-
-	else if (strcmp("custom", algor))
+	else if (!(strcmp("custom", algor)))
 	{
 
 	}
@@ -38,10 +62,9 @@ void page_fault_handler( struct page_table *pt, int page )
 	else
 	{
 		printf("Algorithm '%s' not found.\n", algor);
-		exit (1);
+		printf("page fault on page #%d\n",page);
+		exit(1);
 	}
-	printf("page fault on page #%d\n",page);
-	exit(1);
 }
 
 int main( int argc, char *argv[] )
@@ -52,14 +75,14 @@ int main( int argc, char *argv[] )
 		return 1;
 	}
 
-	int npages = atoi(argv[1]);
-	int nframes = atoi(argv[2]);
+	npages = atoi(argv[1]);
+	nframes = atoi(argv[2]);
 	algor = argv[3];
 	const char *program = argv[4];
 
 	frame_table = malloc(nframes*sizeof(int));
 
-	struct disk *disk = disk_open("myvirtualdisk",npages);
+	disk = disk_open("myvirtualdisk",npages);
 	if(!disk) {
 		fprintf(stderr,"couldn't create virtual disk: %s\n",strerror(errno));
 		return 1;
@@ -76,10 +99,19 @@ int main( int argc, char *argv[] )
 
 	char *physmem = page_table_get_physmem(pt);
 
+	last_frame_alterate = 0; //we initialized this varialble.
+	writen_to_blocks = calloc(npages, sizeof(int));
+
 	for (int i=0; i<nframes; i++)
 	{
 		page_table_set_entry(pt,i,i,PROT_READ|PROT_WRITE);
+		page_table_print(pt);
+		printf("\n");
+		page_table_print_entry(pt, i);
+		printf("\n");
 		frame_table[i] = i;
+		last_frame_alterate++;
+		if(last_frame_alterate == nframes) last_frame_alterate = 0;
 		if (i == npages-1) break;
 	}
 	
