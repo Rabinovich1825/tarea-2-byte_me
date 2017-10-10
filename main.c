@@ -15,8 +15,6 @@ how to use the page table and disk interfaces.
 #include <string.h>
 #include <errno.h>
 
-static int npages;
-static int nframes;
 static char* algor;
 static int* frame_table; //Array of size nframes, where each element stores the page number that is associated with the frame index.
 static struct disk *disk;
@@ -25,17 +23,24 @@ static int* writen_to_blocks;
 
 void page_fault_handler( struct page_table *pt, int page )
 {
+	int nframes = page_table_get_nframes(pt);
+	/*if (pt->page_bits[page] != 0)
+	{
+		//Esto significa que la pagina si esta cargada en la memoria pero igual lanzo un page fault
+		//Esto deberia deberse a que se intento realizar una operación no permitida
+		//Para arreglarlo debemos cambiar permisos de lectura o escritura.
+	}*/
 	if (!(strcmp("fifo", algor)))
 	{
-		char *vm = page_table_get_virtmem(pt);											//Save pointer to virtual memory in variable vm
-		const char *aux = &(vm[(frame_table[last_frame_alterate])*PAGE_SIZE]);			//Save the pointer to the start of the page that's going to be writen to disk
-		disk_write(disk, frame_table[last_frame_alterate], aux);						//We write to disk the data on the last frame alterated in physical memory
+		char *pm = page_table_get_physmem(pt);											//Save pointer to physical memory in variable pm
+		int block = frame_table[last_frame_alterate];									//This is the page_number of the page that's going to be writen to memory
+		const char *data = &(pm[last_frame_alterate*PAGE_SIZE]);						//Save the pointer to the start of the page that's going to be writen to disk
+		disk_write(disk, block, data);													//We write to disk the data on the last frame alterated in physical memory
 		writen_to_blocks[frame_table[last_frame_alterate]] = 1;							//We indicate that this page is now stored in disk
 		if (writen_to_blocks[page])														//If the page responsable for the page_fault is stored in disk, we take it to memory
 		{
-			char *pm = page_table_get_physmem(pt);										//Save pointer to physical memory in variable pm
-			char *aux1 = &(pm[last_frame_alterate*PAGE_SIZE]);							//Save the pointer to the start of the page that's going to be writen to physical memory
-			disk_read(disk, page, aux1);												//We read from disk and save it in memory in the last frame alterated (fifo)
+			char *data1 = &(pm[last_frame_alterate*PAGE_SIZE]);							//Save the pointer to the start of the page that's going to be writen to physical memory
+			disk_read(disk, page, data1);												//We read from disk and save it in memory in the last frame alterated (fifo)
 			writen_to_blocks[page] = 0;													//We indicate that this page is no longer in disk
 		}
 		page_table_set_entry(pt,page, last_frame_alterate, PROT_READ|PROT_WRITE);		//Update page_table
@@ -43,25 +48,29 @@ void page_fault_handler( struct page_table *pt, int page )
 		frame_table[last_frame_alterate] = page;										//Update the frame_table
 		last_frame_alterate++;															//Increse our counter so that we know what the last frame alterated was (fifo)
 		if(last_frame_alterate == nframes) last_frame_alterate = 0;						//We restart out counter in case it reaches the number of frames
+		//page_table_print(pt);
+		//printf("\n");
 	}
 
 	else if (!(strcmp("rand", algor)))
 	{
-		int random_index = lrand48()%nframes;
-		char *vm = page_table_get_virtmem(pt);
-		const char *aux = &(vm[frame_table[random_index]*PAGE_SIZE]);
-		disk_write(disk, frame_table[random_index], aux);
+		int random_index = lrand48()%nframes;											//We take a random number between 0 and nframes - 1
+		char *pm = page_table_get_physmem(pt);											//We continue the same way as fifo, except know we use our random_index instead of last_frame_alterated
+		int block = frame_table[random_index];
+		const char *data = &(pm[random_index*PAGE_SIZE]);
+		disk_write(disk, block, data);
 		writen_to_blocks[frame_table[random_index]] = 1;
 		if (writen_to_blocks[page])
 		{
-			char *pm = page_table_get_physmem(pt);
-			char *aux1 = &(pm[random_index*PAGE_SIZE]);
-			disk_read(disk, page, aux1);
+			char *data1 = &(pm[random_index*PAGE_SIZE]);
+			disk_read(disk, page, data1);
 			writen_to_blocks[page] = 0;
 		}
 		page_table_set_entry(pt,page, random_index, PROT_READ|PROT_WRITE);
 		page_table_set_entry(pt,frame_table[random_index],random_index,0);
 		frame_table[random_index] = page;
+		//page_table_print(pt);
+		//printf("\n");
 	}
 
 	else if (!(strcmp("custom", algor)))
@@ -85,8 +94,8 @@ int main( int argc, char *argv[] )
 		return 1;
 	}
 
-	npages = atoi(argv[1]);
-	nframes = atoi(argv[2]);
+	int npages = atoi(argv[1]);
+	int nframes = atoi(argv[2]);
 	algor = argv[3];
 	const char *program = argv[4];
 
@@ -107,7 +116,7 @@ int main( int argc, char *argv[] )
 
 	char *virtmem = page_table_get_virtmem(pt);
 
-	char *physmem = page_table_get_physmem(pt);
+	//char *physmem = page_table_get_physmem(pt);
 
 	last_frame_alterate = 0; //we initialized this varialble.
 	writen_to_blocks = calloc(npages, sizeof(int));
