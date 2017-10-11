@@ -53,7 +53,7 @@ void sort_program( char *data, int length )
 {
 	int total = 0;
 	int i;
-
+	
 	srand(4856);
 
 	for(i=0;i<length;i++) {

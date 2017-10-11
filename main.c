@@ -20,9 +20,13 @@ static int* frame_table; //Array of size nframes, where each element stores the 
 static struct disk *disk;
 static int last_frame_altered;
 static int* written_to_blocks;
+static int* page_hit_counter; //Counts how many times a page arises a page fault.
+static int page_fault_counter;
 
 void page_fault_handler( struct page_table *pt, int page )
 {
+	page_fault_counter++;
+
 	int nframes = page_table_get_nframes(pt);
 	/*if (pt->page_bits[page] != 0)
 	{
@@ -73,9 +77,49 @@ void page_fault_handler( struct page_table *pt, int page )
 		//printf("\n");
 	}
 
-	else if (!(strcmp("custom", algor)))
-	{
 
+	//This algorithm takes into account how many times a page arises a page fault.
+	//A less page fault hits means this page is probably not as used as others,
+	//so the algorithm swaps the data related to this page to the disk.
+	else if (!(strcmp("custom", algor)))
+	{	
+		page_hit_counter[page]++;											
+		int nframes = page_table_get_nframes(pt);
+		int counter = -1;
+		int frame_index = -1; 	//The frame to be used
+		int frame_page; 		//the page related to that frame
+
+		//Gets the frame wich contains the page with less page fault hits.
+		for (int i = 0; i < nframes; i++)
+		{
+			frame_page = frame_table[i];
+			if (counter == -1) 
+			{
+				counter = page_hit_counter[frame_page];
+				frame_index = i;
+			}
+			else if (page_hit_counter[frame_page] < counter) 
+			{
+				counter = page_hit_counter[frame_page];
+				frame_index = i;
+			}
+		}
+		frame_page = frame_table[frame_index];
+
+		char *pm = page_table_get_physmem(pt);
+		int block = frame_page;
+		const char *data = &(pm[frame_index*PAGE_SIZE]);
+		disk_write(disk, block, data);
+		written_to_blocks[frame_page] = 1;
+		if (written_to_blocks[page])
+		{
+			char *data1 = &(pm[frame_index*PAGE_SIZE]);
+			disk_read(disk, page, data1);
+			written_to_blocks[page] = 0;
+		}
+		page_table_set_entry(pt, page, frame_index, PROT_READ|PROT_WRITE);
+		page_table_set_entry(pt, frame_page, frame_index, 0);
+		frame_table[frame_index] = page;
 	}
 
 	else
@@ -120,6 +164,8 @@ int main( int argc, char *argv[] )
 
 	last_frame_altered = 0; //we initialized this varialble.
 	written_to_blocks = calloc(npages, sizeof(int));
+	page_hit_counter = calloc(npages, sizeof(int));
+	page_fault_counter = 0;
 
 	for (int i=0; i<nframes; i++)
 	{
@@ -146,6 +192,8 @@ int main( int argc, char *argv[] )
 
 	page_table_delete(pt);
 	disk_close(disk);
+
+	printf("page_fault_counter: %d\n", page_fault_counter);
 
 	return 0;
 }
