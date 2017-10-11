@@ -16,12 +16,14 @@ how to use the page table and disk interfaces.
 #include <errno.h>
 
 static char* algor;
-static int* frame_table; //Array of size nframes, where each element stores the page number that is associated with the frame index.
+static int* frame_table; 		//Array of size nframes, where each element stores the page number that is associated with the frame index.
 static struct disk *disk;
 static int last_frame_altered;
 static int* written_to_blocks;
-static int* page_hit_counter; //Counts how many times a page arises a page fault.
-static int page_fault_counter;
+static int* page_hit_counter; 	//Array of page fault hits per page.
+static int page_fault_counter;	//Total of page fault hits
+static int total_disk_write;	//Total of disk writes.
+static int total_disk_read;		//Total of disk reads.
 
 void page_fault_handler( struct page_table *pt, int page )
 {
@@ -40,11 +42,13 @@ void page_fault_handler( struct page_table *pt, int page )
 		int block = frame_table[last_frame_altered];									//This is the page_number of the page that's going to be writen to memory
 		const char *data = &(pm[last_frame_altered*PAGE_SIZE]);						    //Save the pointer to the start of the page that's going to be writen to disk
 		disk_write(disk, block, data);													//We write to disk the data on the last frame alterated in physical memory
+		total_disk_write++;
 		written_to_blocks[frame_table[last_frame_altered]] = 1;							//We indicate that this page is now stored in disk
 		if (written_to_blocks[page])													//If the page responsable for the page_fault is stored in disk, we take it to memory
 		{
 			char *data1 = &(pm[last_frame_altered*PAGE_SIZE]);							//Save the pointer to the start of the page that's going to be writen to physical memory
 			disk_read(disk, page, data1);												//We read from disk and save it in memory in the last frame alterated (fifo)
+			total_disk_read++;
 			written_to_blocks[page] = 0;												//We indicate that this page is no longer in disk
 		}
 		page_table_set_entry(pt,page, last_frame_altered, PROT_READ|PROT_WRITE);		//Update page_table
@@ -63,11 +67,13 @@ void page_fault_handler( struct page_table *pt, int page )
 		int block = frame_table[random_index];
 		const char *data = &(pm[random_index*PAGE_SIZE]);
 		disk_write(disk, block, data);
+		total_disk_write++;
 		written_to_blocks[frame_table[random_index]] = 1;
 		if (written_to_blocks[page])
 		{
 			char *data1 = &(pm[random_index*PAGE_SIZE]);
 			disk_read(disk, page, data1);
+			total_disk_read++;
 			written_to_blocks[page] = 0;
 		}
 		page_table_set_entry(pt,page, random_index, PROT_READ|PROT_WRITE);
@@ -110,11 +116,13 @@ void page_fault_handler( struct page_table *pt, int page )
 		int block = frame_page;
 		const char *data = &(pm[frame_index*PAGE_SIZE]);
 		disk_write(disk, block, data);
+		total_disk_write++;
 		written_to_blocks[frame_page] = 1;
 		if (written_to_blocks[page])
 		{
 			char *data1 = &(pm[frame_index*PAGE_SIZE]);
 			disk_read(disk, page, data1);
+			total_disk_read++;
 			written_to_blocks[page] = 0;
 		}
 		page_table_set_entry(pt, page, frame_index, PROT_READ|PROT_WRITE);
@@ -166,6 +174,8 @@ int main( int argc, char *argv[] )
 	written_to_blocks = calloc(npages, sizeof(int));
 	page_hit_counter = calloc(npages, sizeof(int));
 	page_fault_counter = 0;
+	total_disk_write = 0;
+	total_disk_read = 0;
 
 	for (int i=0; i<nframes; i++)
 	{
@@ -193,7 +203,8 @@ int main( int argc, char *argv[] )
 	page_table_delete(pt);
 	disk_close(disk);
 
-	printf("page_fault_counter: %d\n", page_fault_counter);
-
+	printf("page faults: %d\n", page_fault_counter);
+	printf("total disk writes: %d\n", total_disk_write);
+	printf("total disk readings: %d\n", total_disk_read);
 	return 0;
 }
