@@ -25,6 +25,18 @@ static int page_fault_counter;	//Total of page fault hits
 static int total_disk_write;	//Total of disk writes.
 static int total_disk_read;		//Total of disk reads.
 
+int find_index(int* frame_table, int page, int nframes)
+{
+	for (int i=0; i<nframes; i++)
+	{
+		if (frame_table[i] == page)
+		{
+			return i;
+		}
+	}
+	return 0;
+}
+
 void page_fault_handler( struct page_table *pt, int page )
 {
 	page_fault_counter++;
@@ -32,9 +44,7 @@ void page_fault_handler( struct page_table *pt, int page )
 	int nframes = page_table_get_nframes(pt);
 	/*if (pt->page_bits[page] != 0)
 	{
-		//Esto significa que la pagina si esta cargada en la memoria pero igual lanzo un page fault
-		//Esto deberia deberse a que se intento realizar una operación no permitida
-		//Para arreglarlo debemos cambiar permisos de lectura o escritura.
+		//page_table_set_entry(pt,page, find_index(frame_table, page, page_table_get_nframes(pt)), PROT_READ|PROT_WRITE);
 	}*/
 	if (!(strcmp("fifo", algor)))
 	{
