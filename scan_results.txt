@@ -1,0 +1,1188 @@
+scan result is 522240000
+page faults: 1098
+total disk writes: 1098
+total disk readings: 1000
+scan result is 522240000
+page faults: 1097
+total disk writes: 1097
+total disk readings: 1000
+scan result is 522240000
+page faults: 1096
+total disk writes: 1096
+total disk readings: 1000
+scan result is 522240000
+page faults: 1095
+total disk writes: 1095
+total disk readings: 1000
+scan result is 522240000
+page faults: 1094
+total disk writes: 1094
+total disk readings: 1000
+scan result is 522240000
+page faults: 1093
+total disk writes: 1093
+total disk readings: 1000
+scan result is 522240000
+page faults: 1092
+total disk writes: 1092
+total disk readings: 1000
+scan result is 522240000
+page faults: 1091
+total disk writes: 1091
+total disk readings: 1000
+scan result is 522240000
+page faults: 1090
+total disk writes: 1090
+total disk readings: 1000
+scan result is 522240000
+page faults: 1089
+total disk writes: 1089
+total disk readings: 1000
+scan result is 522240000
+page faults: 1088
+total disk writes: 1088
+total disk readings: 1000
+scan result is 522240000
+page faults: 1087
+total disk writes: 1087
+total disk readings: 1000
+scan result is 522240000
+page faults: 1086
+total disk writes: 1086
+total disk readings: 1000
+scan result is 522240000
+page faults: 1085
+total disk writes: 1085
+total disk readings: 1000
+scan result is 522240000
+page faults: 1084
+total disk writes: 1084
+total disk readings: 1000
+scan result is 522240000
+page faults: 1083
+total disk writes: 1083
+total disk readings: 1000
+scan result is 522240000
+page faults: 1082
+total disk writes: 1082
+total disk readings: 1000
+scan result is 522240000
+page faults: 1081
+total disk writes: 1081
+total disk readings: 1000
+scan result is 522240000
+page faults: 1080
+total disk writes: 1080
+total disk readings: 1000
+scan result is 522240000
+page faults: 1079
+total disk writes: 1079
+total disk readings: 1000
+scan result is 522240000
+page faults: 1078
+total disk writes: 1078
+total disk readings: 1000
+scan result is 522240000
+page faults: 1077
+total disk writes: 1077
+total disk readings: 1000
+scan result is 522240000
+page faults: 1076
+total disk writes: 1076
+total disk readings: 1000
+scan result is 522240000
+page faults: 1075
+total disk writes: 1075
+total disk readings: 1000
+scan result is 522240000
+page faults: 1074
+total disk writes: 1074
+total disk readings: 1000
+scan result is 522240000
+page faults: 1073
+total disk writes: 1073
+total disk readings: 1000
+scan result is 522240000
+page faults: 1072
+total disk writes: 1072
+total disk readings: 1000
+scan result is 522240000
+page faults: 1071
+total disk writes: 1071
+total disk readings: 1000
+scan result is 522240000
+page faults: 1070
+total disk writes: 1070
+total disk readings: 1000
+scan result is 522240000
+page faults: 1069
+total disk writes: 1069
+total disk readings: 1000
+scan result is 522240000
+page faults: 1068
+total disk writes: 1068
+total disk readings: 1000
+scan result is 522240000
+page faults: 1067
+total disk writes: 1067
+total disk readings: 1000
+scan result is 522240000
+page faults: 1066
+total disk writes: 1066
+total disk readings: 1000
+scan result is 522240000
+page faults: 1065
+total disk writes: 1065
+total disk readings: 1000
+scan result is 522240000
+page faults: 1064
+total disk writes: 1064
+total disk readings: 1000
+scan result is 522240000
+page faults: 1063
+total disk writes: 1063
+total disk readings: 1000
+scan result is 522240000
+page faults: 1062
+total disk writes: 1062
+total disk readings: 1000
+scan result is 522240000
+page faults: 1061
+total disk writes: 1061
+total disk readings: 1000
+scan result is 522240000
+page faults: 1060
+total disk writes: 1060
+total disk readings: 1000
+scan result is 522240000
+page faults: 1059
+total disk writes: 1059
+total disk readings: 1000
+scan result is 522240000
+page faults: 1058
+total disk writes: 1058
+total disk readings: 1000
+scan result is 522240000
+page faults: 1057
+total disk writes: 1057
+total disk readings: 1000
+scan result is 522240000
+page faults: 1056
+total disk writes: 1056
+total disk readings: 1000
+scan result is 522240000
+page faults: 1055
+total disk writes: 1055
+total disk readings: 1000
+scan result is 522240000
+page faults: 1054
+total disk writes: 1054
+total disk readings: 1000
+scan result is 522240000
+page faults: 1053
+total disk writes: 1053
+total disk readings: 1000
+scan result is 522240000
+page faults: 1052
+total disk writes: 1052
+total disk readings: 1000
+scan result is 522240000
+page faults: 1051
+total disk writes: 1051
+total disk readings: 1000
+scan result is 522240000
+page faults: 1050
+total disk writes: 1050
+total disk readings: 1000
+scan result is 522240000
+page faults: 1049
+total disk writes: 1049
+total disk readings: 1000
+scan result is 522240000
+page faults: 1048
+total disk writes: 1048
+total disk readings: 1000
+scan result is 522240000
+page faults: 1047
+total disk writes: 1047
+total disk readings: 1000
+scan result is 522240000
+page faults: 1046
+total disk writes: 1046
+total disk readings: 1000
+scan result is 522240000
+page faults: 1045
+total disk writes: 1045
+total disk readings: 1000
+scan result is 522240000
+page faults: 1044
+total disk writes: 1044
+total disk readings: 1000
+scan result is 522240000
+page faults: 1043
+total disk writes: 1043
+total disk readings: 1000
+scan result is 522240000
+page faults: 1042
+total disk writes: 1042
+total disk readings: 1000
+scan result is 522240000
+page faults: 1041
+total disk writes: 1041
+total disk readings: 1000
+scan result is 522240000
+page faults: 1040
+total disk writes: 1040
+total disk readings: 1000
+scan result is 522240000
+page faults: 1039
+total disk writes: 1039
+total disk readings: 1000
+scan result is 522240000
+page faults: 1038
+total disk writes: 1038
+total disk readings: 1000
+scan result is 522240000
+page faults: 1037
+total disk writes: 1037
+total disk readings: 1000
+scan result is 522240000
+page faults: 1036
+total disk writes: 1036
+total disk readings: 1000
+scan result is 522240000
+page faults: 1035
+total disk writes: 1035
+total disk readings: 1000
+scan result is 522240000
+page faults: 1034
+total disk writes: 1034
+total disk readings: 1000
+scan result is 522240000
+page faults: 1033
+total disk writes: 1033
+total disk readings: 1000
+scan result is 522240000
+page faults: 1032
+total disk writes: 1032
+total disk readings: 1000
+scan result is 522240000
+page faults: 1031
+total disk writes: 1031
+total disk readings: 1000
+scan result is 522240000
+page faults: 1030
+total disk writes: 1030
+total disk readings: 1000
+scan result is 522240000
+page faults: 1029
+total disk writes: 1029
+total disk readings: 1000
+scan result is 522240000
+page faults: 1028
+total disk writes: 1028
+total disk readings: 1000
+scan result is 522240000
+page faults: 1027
+total disk writes: 1027
+total disk readings: 1000
+scan result is 522240000
+page faults: 1026
+total disk writes: 1026
+total disk readings: 1000
+scan result is 522240000
+page faults: 1025
+total disk writes: 1025
+total disk readings: 1000
+scan result is 522240000
+page faults: 1024
+total disk writes: 1024
+total disk readings: 1000
+scan result is 522240000
+page faults: 1023
+total disk writes: 1023
+total disk readings: 1000
+scan result is 522240000
+page faults: 1022
+total disk writes: 1022
+total disk readings: 1000
+scan result is 522240000
+page faults: 1021
+total disk writes: 1021
+total disk readings: 1000
+scan result is 522240000
+page faults: 1020
+total disk writes: 1020
+total disk readings: 1000
+scan result is 522240000
+page faults: 1019
+total disk writes: 1019
+total disk readings: 1000
+scan result is 522240000
+page faults: 1018
+total disk writes: 1018
+total disk readings: 1000
+scan result is 522240000
+page faults: 1017
+total disk writes: 1017
+total disk readings: 1000
+scan result is 522240000
+page faults: 1016
+total disk writes: 1016
+total disk readings: 1000
+scan result is 522240000
+page faults: 1015
+total disk writes: 1015
+total disk readings: 1000
+scan result is 522240000
+page faults: 1014
+total disk writes: 1014
+total disk readings: 1000
+scan result is 522240000
+page faults: 1013
+total disk writes: 1013
+total disk readings: 1000
+scan result is 522240000
+page faults: 1012
+total disk writes: 1012
+total disk readings: 1000
+scan result is 522240000
+page faults: 1011
+total disk writes: 1011
+total disk readings: 1000
+scan result is 522240000
+page faults: 1010
+total disk writes: 1010
+total disk readings: 1000
+scan result is 522240000
+page faults: 1009
+total disk writes: 1009
+total disk readings: 1000
+scan result is 522240000
+page faults: 1008
+total disk writes: 1008
+total disk readings: 1000
+scan result is 522240000
+page faults: 1007
+total disk writes: 1007
+total disk readings: 1000
+scan result is 522240000
+page faults: 1006
+total disk writes: 1006
+total disk readings: 1000
+scan result is 522240000
+page faults: 1005
+total disk writes: 1005
+total disk readings: 1000
+scan result is 522240000
+page faults: 1004
+total disk writes: 1004
+total disk readings: 1000
+scan result is 522240000
+page faults: 1003
+total disk writes: 1003
+total disk readings: 1000
+scan result is 522240000
+page faults: 1002
+total disk writes: 1002
+total disk readings: 1000
+scan result is 522240000
+page faults: 1001
+total disk writes: 1001
+total disk readings: 1000
+scan result is 522240000
+page faults: 0
+total disk writes: 0
+total disk readings: 0
+scan result is 522240000
+page faults: 1098
+total disk writes: 1098
+total disk readings: 1000
+scan result is 522240000
+page faults: 1097
+total disk writes: 1097
+total disk readings: 1000
+scan result is 522240000
+page faults: 1096
+total disk writes: 1096
+total disk readings: 1000
+scan result is 522240000
+page faults: 1095
+total disk writes: 1095
+total disk readings: 1000
+scan result is 522240000
+page faults: 1094
+total disk writes: 1094
+total disk readings: 1000
+scan result is 522240000
+page faults: 1093
+total disk writes: 1093
+total disk readings: 1000
+scan result is 522240000
+page faults: 1092
+total disk writes: 1092
+total disk readings: 1000
+scan result is 522240000
+page faults: 1091
+total disk writes: 1091
+total disk readings: 1000
+scan result is 522240000
+page faults: 1090
+total disk writes: 1090
+total disk readings: 1000
+scan result is 522240000
+page faults: 1089
+total disk writes: 1089
+total disk readings: 1000
+scan result is 522240000
+page faults: 1088
+total disk writes: 1088
+total disk readings: 1000
+scan result is 522240000
+page faults: 1087
+total disk writes: 1087
+total disk readings: 1000
+scan result is 522240000
+page faults: 1085
+total disk writes: 1085
+total disk readings: 999
+scan result is 522240000
+page faults: 1084
+total disk writes: 1084
+total disk readings: 999
+scan result is 522240000
+page faults: 1080
+total disk writes: 1080
+total disk readings: 996
+scan result is 522240000
+page faults: 1079
+total disk writes: 1079
+total disk readings: 996
+scan result is 522240000
+page faults: 1078
+total disk writes: 1078
+total disk readings: 996
+scan result is 522240000
+page faults: 1076
+total disk writes: 1076
+total disk readings: 995
+scan result is 522240000
+page faults: 1075
+total disk writes: 1075
+total disk readings: 995
+scan result is 522240000
+page faults: 1067
+total disk writes: 1067
+total disk readings: 988
+scan result is 522240000
+page faults: 1066
+total disk writes: 1066
+total disk readings: 988
+scan result is 522240000
+page faults: 1070
+total disk writes: 1070
+total disk readings: 993
+scan result is 522240000
+page faults: 1053
+total disk writes: 1053
+total disk readings: 977
+scan result is 522240000
+page faults: 1051
+total disk writes: 1051
+total disk readings: 976
+scan result is 522240000
+page faults: 1053
+total disk writes: 1053
+total disk readings: 979
+scan result is 522240000
+page faults: 1053
+total disk writes: 1053
+total disk readings: 980
+scan result is 522240000
+page faults: 1042
+total disk writes: 1042
+total disk readings: 970
+scan result is 522240000
+page faults: 1031
+total disk writes: 1031
+total disk readings: 960
+scan result is 522240000
+page faults: 1029
+total disk writes: 1029
+total disk readings: 959
+scan result is 522240000
+page faults: 1022
+total disk writes: 1022
+total disk readings: 953
+scan result is 522240000
+page faults: 1017
+total disk writes: 1017
+total disk readings: 949
+scan result is 522240000
+page faults: 1003
+total disk writes: 1003
+total disk readings: 936
+scan result is 522240000
+page faults: 1007
+total disk writes: 1007
+total disk readings: 941
+scan result is 522240000
+page faults: 982
+total disk writes: 982
+total disk readings: 917
+scan result is 522240000
+page faults: 990
+total disk writes: 990
+total disk readings: 926
+scan result is 522240000
+page faults: 982
+total disk writes: 982
+total disk readings: 919
+scan result is 522240000
+page faults: 969
+total disk writes: 969
+total disk readings: 907
+scan result is 522240000
+page faults: 961
+total disk writes: 961
+total disk readings: 900
+scan result is 522240000
+page faults: 960
+total disk writes: 960
+total disk readings: 900
+scan result is 522240000
+page faults: 943
+total disk writes: 943
+total disk readings: 884
+scan result is 522240000
+page faults: 930
+total disk writes: 930
+total disk readings: 872
+scan result is 522240000
+page faults: 922
+total disk writes: 922
+total disk readings: 865
+scan result is 522240000
+page faults: 908
+total disk writes: 908
+total disk readings: 852
+scan result is 522240000
+page faults: 895
+total disk writes: 895
+total disk readings: 840
+scan result is 522240000
+page faults: 900
+total disk writes: 900
+total disk readings: 846
+scan result is 522240000
+page faults: 881
+total disk writes: 881
+total disk readings: 828
+scan result is 522240000
+page faults: 879
+total disk writes: 879
+total disk readings: 827
+scan result is 522240000
+page faults: 856
+total disk writes: 856
+total disk readings: 805
+scan result is 522240000
+page faults: 832
+total disk writes: 832
+total disk readings: 782
+scan result is 522240000
+page faults: 827
+total disk writes: 827
+total disk readings: 778
+scan result is 522240000
+page faults: 828
+total disk writes: 828
+total disk readings: 780
+scan result is 522240000
+page faults: 813
+total disk writes: 813
+total disk readings: 766
+scan result is 522240000
+page faults: 817
+total disk writes: 817
+total disk readings: 771
+scan result is 522240000
+page faults: 787
+total disk writes: 787
+total disk readings: 742
+scan result is 522240000
+page faults: 778
+total disk writes: 778
+total disk readings: 734
+scan result is 522240000
+page faults: 760
+total disk writes: 760
+total disk readings: 717
+scan result is 522240000
+page faults: 732
+total disk writes: 732
+total disk readings: 690
+scan result is 522240000
+page faults: 740
+total disk writes: 740
+total disk readings: 699
+scan result is 522240000
+page faults: 708
+total disk writes: 708
+total disk readings: 668
+scan result is 522240000
+page faults: 692
+total disk writes: 692
+total disk readings: 653
+scan result is 522240000
+page faults: 689
+total disk writes: 689
+total disk readings: 651
+scan result is 522240000
+page faults: 666
+total disk writes: 666
+total disk readings: 629
+scan result is 522240000
+page faults: 670
+total disk writes: 670
+total disk readings: 634
+scan result is 522240000
+page faults: 627
+total disk writes: 627
+total disk readings: 592
+scan result is 522240000
+page faults: 614
+total disk writes: 614
+total disk readings: 580
+scan result is 522240000
+page faults: 605
+total disk writes: 605
+total disk readings: 572
+scan result is 522240000
+page faults: 600
+total disk writes: 600
+total disk readings: 568
+scan result is 522240000
+page faults: 585
+total disk writes: 585
+total disk readings: 554
+scan result is 522240000
+page faults: 544
+total disk writes: 544
+total disk readings: 514
+scan result is 522240000
+page faults: 559
+total disk writes: 559
+total disk readings: 530
+scan result is 522240000
+page faults: 532
+total disk writes: 532
+total disk readings: 504
+scan result is 522240000
+page faults: 518
+total disk writes: 518
+total disk readings: 491
+scan result is 522240000
+page faults: 503
+total disk writes: 503
+total disk readings: 477
+scan result is 522240000
+page faults: 486
+total disk writes: 486
+total disk readings: 461
+scan result is 522240000
+page faults: 446
+total disk writes: 446
+total disk readings: 422
+scan result is 522240000
+page faults: 449
+total disk writes: 449
+total disk readings: 426
+scan result is 522240000
+page faults: 442
+total disk writes: 442
+total disk readings: 420
+scan result is 522240000
+page faults: 405
+total disk writes: 405
+total disk readings: 384
+scan result is 522240000
+page faults: 397
+total disk writes: 397
+total disk readings: 377
+scan result is 522240000
+page faults: 374
+total disk writes: 374
+total disk readings: 355
+scan result is 522240000
+page faults: 355
+total disk writes: 355
+total disk readings: 337
+scan result is 522240000
+page faults: 343
+total disk writes: 343
+total disk readings: 326
+scan result is 522240000
+page faults: 300
+total disk writes: 300
+total disk readings: 284
+scan result is 522240000
+page faults: 299
+total disk writes: 299
+total disk readings: 284
+scan result is 522240000
+page faults: 274
+total disk writes: 274
+total disk readings: 260
+scan result is 522240000
+page faults: 280
+total disk writes: 280
+total disk readings: 267
+scan result is 522240000
+page faults: 240
+total disk writes: 240
+total disk readings: 228
+scan result is 522240000
+page faults: 211
+total disk writes: 211
+total disk readings: 200
+scan result is 522240000
+page faults: 211
+total disk writes: 211
+total disk readings: 201
+scan result is 522240000
+page faults: 172
+total disk writes: 172
+total disk readings: 163
+scan result is 522240000
+page faults: 160
+total disk writes: 160
+total disk readings: 152
+scan result is 522240000
+page faults: 142
+total disk writes: 142
+total disk readings: 135
+scan result is 522240000
+page faults: 134
+total disk writes: 134
+total disk readings: 128
+scan result is 522240000
+page faults: 109
+total disk writes: 109
+total disk readings: 104
+scan result is 522240000
+page faults: 89
+total disk writes: 89
+total disk readings: 85
+scan result is 522240000
+page faults: 59
+total disk writes: 59
+total disk readings: 56
+scan result is 522240000
+page faults: 47
+total disk writes: 47
+total disk readings: 45
+scan result is 522240000
+page faults: 21
+total disk writes: 21
+total disk readings: 20
+scan result is 522240000
+page faults: 0
+total disk writes: 0
+total disk readings: 0
+scan result is 522240000
+page faults: 1097
+total disk writes: 1097
+total disk readings: 999
+scan result is 522240000
+page faults: 1094
+total disk writes: 1094
+total disk readings: 997
+scan result is 522240000
+page faults: 1090
+total disk writes: 1090
+total disk readings: 994
+scan result is 522240000
+page faults: 1085
+total disk writes: 1085
+total disk readings: 990
+scan result is 522240000
+page faults: 1079
+total disk writes: 1079
+total disk readings: 985
+scan result is 522240000
+page faults: 1072
+total disk writes: 1072
+total disk readings: 979
+scan result is 522240000
+page faults: 1064
+total disk writes: 1064
+total disk readings: 972
+scan result is 522240000
+page faults: 1055
+total disk writes: 1055
+total disk readings: 964
+scan result is 522240000
+page faults: 1045
+total disk writes: 1045
+total disk readings: 955
+scan result is 522240000
+page faults: 1034
+total disk writes: 1034
+total disk readings: 945
+scan result is 522240000
+page faults: 1023
+total disk writes: 1023
+total disk readings: 935
+scan result is 522240000
+page faults: 1012
+total disk writes: 1012
+total disk readings: 925
+scan result is 522240000
+page faults: 1005
+total disk writes: 1005
+total disk readings: 919
+scan result is 522240000
+page faults: 987
+total disk writes: 987
+total disk readings: 902
+scan result is 522240000
+page faults: 969
+total disk writes: 969
+total disk readings: 885
+scan result is 522240000
+page faults: 960
+total disk writes: 960
+total disk readings: 877
+scan result is 522240000
+page faults: 946
+total disk writes: 946
+total disk readings: 864
+scan result is 522240000
+page faults: 936
+total disk writes: 936
+total disk readings: 855
+scan result is 522240000
+page faults: 924
+total disk writes: 924
+total disk readings: 844
+scan result is 522240000
+page faults: 914
+total disk writes: 914
+total disk readings: 835
+scan result is 522240000
+page faults: 904
+total disk writes: 904
+total disk readings: 826
+scan result is 522240000
+page faults: 905
+total disk writes: 905
+total disk readings: 828
+scan result is 522240000
+page faults: 903
+total disk writes: 903
+total disk readings: 827
+scan result is 522240000
+page faults: 890
+total disk writes: 890
+total disk readings: 815
+scan result is 522240000
+page faults: 881
+total disk writes: 881
+total disk readings: 807
+scan result is 522240000
+page faults: 872
+total disk writes: 872
+total disk readings: 799
+scan result is 522240000
+page faults: 862
+total disk writes: 862
+total disk readings: 790
+scan result is 522240000
+page faults: 853
+total disk writes: 853
+total disk readings: 782
+scan result is 522240000
+page faults: 844
+total disk writes: 844
+total disk readings: 774
+scan result is 522240000
+page faults: 834
+total disk writes: 834
+total disk readings: 765
+scan result is 522240000
+page faults: 825
+total disk writes: 825
+total disk readings: 757
+scan result is 522240000
+page faults: 816
+total disk writes: 816
+total disk readings: 749
+scan result is 522240000
+page faults: 807
+total disk writes: 807
+total disk readings: 741
+scan result is 522240000
+page faults: 803
+total disk writes: 803
+total disk readings: 738
+scan result is 522240000
+page faults: 803
+total disk writes: 803
+total disk readings: 739
+scan result is 522240000
+page faults: 803
+total disk writes: 803
+total disk readings: 740
+scan result is 522240000
+page faults: 803
+total disk writes: 803
+total disk readings: 741
+scan result is 522240000
+page faults: 795
+total disk writes: 795
+total disk readings: 734
+scan result is 522240000
+page faults: 787
+total disk writes: 787
+total disk readings: 727
+scan result is 522240000
+page faults: 778
+total disk writes: 778
+total disk readings: 719
+scan result is 522240000
+page faults: 771
+total disk writes: 771
+total disk readings: 713
+scan result is 522240000
+page faults: 763
+total disk writes: 763
+total disk readings: 706
+scan result is 522240000
+page faults: 755
+total disk writes: 755
+total disk readings: 699
+scan result is 522240000
+page faults: 747
+total disk writes: 747
+total disk readings: 692
+scan result is 522240000
+page faults: 739
+total disk writes: 739
+total disk readings: 685
+scan result is 522240000
+page faults: 731
+total disk writes: 731
+total disk readings: 678
+scan result is 522240000
+page faults: 723
+total disk writes: 723
+total disk readings: 671
+scan result is 522240000
+page faults: 715
+total disk writes: 715
+total disk readings: 664
+scan result is 522240000
+page faults: 707
+total disk writes: 707
+total disk readings: 657
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 653
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 654
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 655
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 656
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 657
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 658
+scan result is 522240000
+page faults: 702
+total disk writes: 702
+total disk readings: 659
+scan result is 522240000
+page faults: 696
+total disk writes: 696
+total disk readings: 654
+scan result is 522240000
+page faults: 689
+total disk writes: 689
+total disk readings: 648
+scan result is 522240000
+page faults: 682
+total disk writes: 682
+total disk readings: 642
+scan result is 522240000
+page faults: 675
+total disk writes: 675
+total disk readings: 636
+scan result is 522240000
+page faults: 668
+total disk writes: 668
+total disk readings: 630
+scan result is 522240000
+page faults: 661
+total disk writes: 661
+total disk readings: 624
+scan result is 522240000
+page faults: 654
+total disk writes: 654
+total disk readings: 618
+scan result is 522240000
+page faults: 647
+total disk writes: 647
+total disk readings: 612
+scan result is 522240000
+page faults: 640
+total disk writes: 640
+total disk readings: 606
+scan result is 522240000
+page faults: 633
+total disk writes: 633
+total disk readings: 600
+scan result is 522240000
+page faults: 626
+total disk writes: 626
+total disk readings: 594
+scan result is 522240000
+page faults: 619
+total disk writes: 619
+total disk readings: 588
+scan result is 522240000
+page faults: 612
+total disk writes: 612
+total disk readings: 582
+scan result is 522240000
+page faults: 605
+total disk writes: 605
+total disk readings: 576
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 573
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 574
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 575
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 576
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 577
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 578
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 579
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 580
+scan result is 522240000
+page faults: 601
+total disk writes: 601
+total disk readings: 581
+scan result is 522240000
+page faults: 602
+total disk writes: 602
+total disk readings: 583
+scan result is 522240000
+page faults: 602
+total disk writes: 602
+total disk readings: 584
+scan result is 522240000
+page faults: 602
+total disk writes: 602
+total disk readings: 585
+scan result is 522240000
+page faults: 596
+total disk writes: 596
+total disk readings: 580
+scan result is 522240000
+page faults: 590
+total disk writes: 590
+total disk readings: 575
+scan result is 522240000
+page faults: 584
+total disk writes: 584
+total disk readings: 570
+scan result is 522240000
+page faults: 578
+total disk writes: 578
+total disk readings: 565
+scan result is 522240000
+page faults: 572
+total disk writes: 572
+total disk readings: 560
+scan result is 522240000
+page faults: 566
+total disk writes: 566
+total disk readings: 555
+scan result is 522240000
+page faults: 560
+total disk writes: 560
+total disk readings: 550
+scan result is 522240000
+page faults: 554
+total disk writes: 554
+total disk readings: 545
+scan result is 522240000
+page faults: 548
+total disk writes: 548
+total disk readings: 540
+scan result is 522240000
+page faults: 542
+total disk writes: 542
+total disk readings: 535
+scan result is 522240000
+page faults: 536
+total disk writes: 536
+total disk readings: 530
+scan result is 522240000
+page faults: 530
+total disk writes: 530
+total disk readings: 525
+scan result is 522240000
+page faults: 524
+total disk writes: 524
+total disk readings: 520
+scan result is 522240000
+page faults: 518
+total disk writes: 518
+total disk readings: 515
+scan result is 522240000
+page faults: 512
+total disk writes: 512
+total disk readings: 510
+scan result is 522240000
+page faults: 506
+total disk writes: 506
+total disk readings: 505
+scan result is 522240000
+page faults: 0
+total disk writes: 0
+total disk readings: 0

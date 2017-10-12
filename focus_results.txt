@@ -1,0 +1,1188 @@
+focus result is -2533
+page faults: 297
+total disk writes: 297
+total disk readings: 199
+focus result is -2533
+page faults: 295
+total disk writes: 295
+total disk readings: 198
+focus result is -2533
+page faults: 294
+total disk writes: 294
+total disk readings: 198
+focus result is -2533
+page faults: 290
+total disk writes: 290
+total disk readings: 195
+focus result is -2533
+page faults: 287
+total disk writes: 287
+total disk readings: 193
+focus result is -2533
+page faults: 286
+total disk writes: 286
+total disk readings: 193
+focus result is -2533
+page faults: 284
+total disk writes: 284
+total disk readings: 192
+focus result is -2533
+page faults: 280
+total disk writes: 280
+total disk readings: 189
+focus result is -2533
+page faults: 278
+total disk writes: 278
+total disk readings: 188
+focus result is -2533
+page faults: 277
+total disk writes: 277
+total disk readings: 188
+focus result is -2533
+page faults: 275
+total disk writes: 275
+total disk readings: 187
+focus result is -2533
+page faults: 271
+total disk writes: 271
+total disk readings: 184
+focus result is -2533
+page faults: 269
+total disk writes: 269
+total disk readings: 183
+focus result is -2533
+page faults: 265
+total disk writes: 265
+total disk readings: 180
+focus result is -2533
+page faults: 263
+total disk writes: 263
+total disk readings: 179
+focus result is -2533
+page faults: 262
+total disk writes: 262
+total disk readings: 179
+focus result is -2533
+page faults: 260
+total disk writes: 260
+total disk readings: 178
+focus result is -2533
+page faults: 257
+total disk writes: 257
+total disk readings: 176
+focus result is -2533
+page faults: 255
+total disk writes: 255
+total disk readings: 175
+focus result is -2533
+page faults: 252
+total disk writes: 252
+total disk readings: 173
+focus result is -2533
+page faults: 251
+total disk writes: 251
+total disk readings: 173
+focus result is -2533
+page faults: 248
+total disk writes: 248
+total disk readings: 171
+focus result is -2533
+page faults: 247
+total disk writes: 247
+total disk readings: 171
+focus result is -2533
+page faults: 245
+total disk writes: 245
+total disk readings: 170
+focus result is -2533
+page faults: 243
+total disk writes: 243
+total disk readings: 169
+focus result is -2533
+page faults: 241
+total disk writes: 241
+total disk readings: 168
+focus result is -2533
+page faults: 240
+total disk writes: 240
+total disk readings: 168
+focus result is -2533
+page faults: 237
+total disk writes: 237
+total disk readings: 166
+focus result is -2533
+page faults: 227
+total disk writes: 227
+total disk readings: 157
+focus result is -2533
+page faults: 222
+total disk writes: 222
+total disk readings: 153
+focus result is -2533
+page faults: 221
+total disk writes: 221
+total disk readings: 153
+focus result is -2533
+page faults: 220
+total disk writes: 220
+total disk readings: 153
+focus result is -2533
+page faults: 218
+total disk writes: 218
+total disk readings: 152
+focus result is -2533
+page faults: 216
+total disk writes: 216
+total disk readings: 151
+focus result is -2533
+page faults: 215
+total disk writes: 215
+total disk readings: 151
+focus result is -2533
+page faults: 214
+total disk writes: 214
+total disk readings: 151
+focus result is -2533
+page faults: 213
+total disk writes: 213
+total disk readings: 151
+focus result is -2533
+page faults: 210
+total disk writes: 210
+total disk readings: 149
+focus result is -2533
+page faults: 207
+total disk writes: 207
+total disk readings: 147
+focus result is -2533
+page faults: 206
+total disk writes: 206
+total disk readings: 147
+focus result is -2533
+page faults: 205
+total disk writes: 205
+total disk readings: 147
+focus result is -2533
+page faults: 201
+total disk writes: 201
+total disk readings: 144
+focus result is -2533
+page faults: 200
+total disk writes: 200
+total disk readings: 144
+focus result is -2533
+page faults: 199
+total disk writes: 199
+total disk readings: 144
+focus result is -2533
+page faults: 198
+total disk writes: 198
+total disk readings: 144
+focus result is -2533
+page faults: 191
+total disk writes: 191
+total disk readings: 138
+focus result is -2533
+page faults: 188
+total disk writes: 188
+total disk readings: 136
+focus result is -2533
+page faults: 187
+total disk writes: 187
+total disk readings: 136
+focus result is -2533
+page faults: 186
+total disk writes: 186
+total disk readings: 136
+focus result is -2533
+page faults: 183
+total disk writes: 183
+total disk readings: 134
+focus result is -2533
+page faults: 178
+total disk writes: 178
+total disk readings: 130
+focus result is -2533
+page faults: 175
+total disk writes: 175
+total disk readings: 128
+focus result is -2533
+page faults: 161
+total disk writes: 161
+total disk readings: 115
+focus result is -2533
+page faults: 148
+total disk writes: 148
+total disk readings: 103
+focus result is -2533
+page faults: 146
+total disk writes: 146
+total disk readings: 102
+focus result is -2533
+page faults: 145
+total disk writes: 145
+total disk readings: 102
+focus result is -2533
+page faults: 142
+total disk writes: 142
+total disk readings: 100
+focus result is -2533
+page faults: 141
+total disk writes: 141
+total disk readings: 100
+focus result is -2533
+page faults: 140
+total disk writes: 140
+total disk readings: 100
+focus result is -2533
+page faults: 139
+total disk writes: 139
+total disk readings: 100
+focus result is -2533
+page faults: 138
+total disk writes: 138
+total disk readings: 100
+focus result is -2533
+page faults: 137
+total disk writes: 137
+total disk readings: 100
+focus result is -2533
+page faults: 136
+total disk writes: 136
+total disk readings: 100
+focus result is -2533
+page faults: 135
+total disk writes: 135
+total disk readings: 100
+focus result is -2533
+page faults: 134
+total disk writes: 134
+total disk readings: 100
+focus result is -2533
+page faults: 133
+total disk writes: 133
+total disk readings: 100
+focus result is -2533
+page faults: 132
+total disk writes: 132
+total disk readings: 100
+focus result is -2533
+page faults: 131
+total disk writes: 131
+total disk readings: 100
+focus result is -2533
+page faults: 130
+total disk writes: 130
+total disk readings: 100
+focus result is -2533
+page faults: 129
+total disk writes: 129
+total disk readings: 100
+focus result is -2533
+page faults: 128
+total disk writes: 128
+total disk readings: 100
+focus result is -2533
+page faults: 127
+total disk writes: 127
+total disk readings: 100
+focus result is -2533
+page faults: 126
+total disk writes: 126
+total disk readings: 100
+focus result is -2533
+page faults: 125
+total disk writes: 125
+total disk readings: 100
+focus result is -2533
+page faults: 124
+total disk writes: 124
+total disk readings: 100
+focus result is -2533
+page faults: 123
+total disk writes: 123
+total disk readings: 100
+focus result is -2533
+page faults: 122
+total disk writes: 122
+total disk readings: 100
+focus result is -2533
+page faults: 121
+total disk writes: 121
+total disk readings: 100
+focus result is -2533
+page faults: 120
+total disk writes: 120
+total disk readings: 100
+focus result is -2533
+page faults: 119
+total disk writes: 119
+total disk readings: 100
+focus result is -2533
+page faults: 118
+total disk writes: 118
+total disk readings: 100
+focus result is -2533
+page faults: 117
+total disk writes: 117
+total disk readings: 100
+focus result is -2533
+page faults: 116
+total disk writes: 116
+total disk readings: 100
+focus result is -2533
+page faults: 115
+total disk writes: 115
+total disk readings: 100
+focus result is -2533
+page faults: 114
+total disk writes: 114
+total disk readings: 100
+focus result is -2533
+page faults: 113
+total disk writes: 113
+total disk readings: 100
+focus result is -2533
+page faults: 112
+total disk writes: 112
+total disk readings: 100
+focus result is -2533
+page faults: 111
+total disk writes: 111
+total disk readings: 100
+focus result is -2533
+page faults: 110
+total disk writes: 110
+total disk readings: 100
+focus result is -2533
+page faults: 109
+total disk writes: 109
+total disk readings: 100
+focus result is -2533
+page faults: 108
+total disk writes: 108
+total disk readings: 100
+focus result is -2533
+page faults: 107
+total disk writes: 107
+total disk readings: 100
+focus result is -2533
+page faults: 106
+total disk writes: 106
+total disk readings: 100
+focus result is -2533
+page faults: 105
+total disk writes: 105
+total disk readings: 100
+focus result is -2533
+page faults: 104
+total disk writes: 104
+total disk readings: 100
+focus result is -2533
+page faults: 103
+total disk writes: 103
+total disk readings: 100
+focus result is -2533
+page faults: 102
+total disk writes: 102
+total disk readings: 100
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 100
+focus result is -2533
+page faults: 0
+total disk writes: 0
+total disk readings: 0
+focus result is -2533
+page faults: 297
+total disk writes: 297
+total disk readings: 199
+focus result is -2533
+page faults: 294
+total disk writes: 294
+total disk readings: 197
+focus result is -2533
+page faults: 293
+total disk writes: 293
+total disk readings: 197
+focus result is -2533
+page faults: 287
+total disk writes: 287
+total disk readings: 192
+focus result is -2533
+page faults: 288
+total disk writes: 288
+total disk readings: 194
+focus result is -2533
+page faults: 287
+total disk writes: 287
+total disk readings: 194
+focus result is -2533
+page faults: 282
+total disk writes: 282
+total disk readings: 190
+focus result is -2533
+page faults: 283
+total disk writes: 283
+total disk readings: 192
+focus result is -2533
+page faults: 279
+total disk writes: 279
+total disk readings: 189
+focus result is -2533
+page faults: 275
+total disk writes: 275
+total disk readings: 186
+focus result is -2533
+page faults: 273
+total disk writes: 273
+total disk readings: 185
+focus result is -2533
+page faults: 271
+total disk writes: 271
+total disk readings: 184
+focus result is -2533
+page faults: 268
+total disk writes: 268
+total disk readings: 182
+focus result is -2533
+page faults: 268
+total disk writes: 268
+total disk readings: 183
+focus result is -2533
+page faults: 268
+total disk writes: 268
+total disk readings: 184
+focus result is -2533
+page faults: 259
+total disk writes: 259
+total disk readings: 176
+focus result is -2533
+page faults: 263
+total disk writes: 263
+total disk readings: 181
+focus result is -2533
+page faults: 252
+total disk writes: 252
+total disk readings: 171
+focus result is -2533
+page faults: 258
+total disk writes: 258
+total disk readings: 178
+focus result is -2533
+page faults: 251
+total disk writes: 251
+total disk readings: 172
+focus result is -2533
+page faults: 251
+total disk writes: 251
+total disk readings: 173
+focus result is -2533
+page faults: 241
+total disk writes: 241
+total disk readings: 164
+focus result is -2533
+page faults: 247
+total disk writes: 247
+total disk readings: 171
+focus result is -2533
+page faults: 239
+total disk writes: 239
+total disk readings: 164
+focus result is -2533
+page faults: 243
+total disk writes: 243
+total disk readings: 169
+focus result is -2533
+page faults: 232
+total disk writes: 232
+total disk readings: 159
+focus result is -2533
+page faults: 238
+total disk writes: 238
+total disk readings: 166
+focus result is -2533
+page faults: 236
+total disk writes: 236
+total disk readings: 165
+focus result is -2533
+page faults: 224
+total disk writes: 224
+total disk readings: 154
+focus result is -2533
+page faults: 229
+total disk writes: 229
+total disk readings: 160
+focus result is -2533
+page faults: 222
+total disk writes: 222
+total disk readings: 154
+focus result is -2533
+page faults: 218
+total disk writes: 218
+total disk readings: 151
+focus result is -2533
+page faults: 218
+total disk writes: 218
+total disk readings: 152
+focus result is -2533
+page faults: 223
+total disk writes: 223
+total disk readings: 158
+focus result is -2533
+page faults: 214
+total disk writes: 214
+total disk readings: 150
+focus result is -2533
+page faults: 204
+total disk writes: 204
+total disk readings: 141
+focus result is -2533
+page faults: 212
+total disk writes: 212
+total disk readings: 150
+focus result is -2533
+page faults: 204
+total disk writes: 204
+total disk readings: 143
+focus result is -2533
+page faults: 196
+total disk writes: 196
+total disk readings: 136
+focus result is -2533
+page faults: 190
+total disk writes: 190
+total disk readings: 131
+focus result is -2533
+page faults: 194
+total disk writes: 194
+total disk readings: 136
+focus result is -2533
+page faults: 189
+total disk writes: 189
+total disk readings: 132
+focus result is -2533
+page faults: 187
+total disk writes: 187
+total disk readings: 131
+focus result is -2533
+page faults: 190
+total disk writes: 190
+total disk readings: 135
+focus result is -2533
+page faults: 181
+total disk writes: 181
+total disk readings: 127
+focus result is -2533
+page faults: 175
+total disk writes: 175
+total disk readings: 122
+focus result is -2533
+page faults: 181
+total disk writes: 181
+total disk readings: 129
+focus result is -2533
+page faults: 172
+total disk writes: 172
+total disk readings: 121
+focus result is -2533
+page faults: 166
+total disk writes: 166
+total disk readings: 116
+focus result is -2533
+page faults: 167
+total disk writes: 167
+total disk readings: 118
+focus result is -2533
+page faults: 166
+total disk writes: 166
+total disk readings: 118
+focus result is -2533
+page faults: 165
+total disk writes: 165
+total disk readings: 118
+focus result is -2533
+page faults: 164
+total disk writes: 164
+total disk readings: 118
+focus result is -2533
+page faults: 161
+total disk writes: 161
+total disk readings: 116
+focus result is -2533
+page faults: 149
+total disk writes: 149
+total disk readings: 105
+focus result is -2533
+page faults: 149
+total disk writes: 149
+total disk readings: 106
+focus result is -2533
+page faults: 139
+total disk writes: 139
+total disk readings: 97
+focus result is -2533
+page faults: 143
+total disk writes: 143
+total disk readings: 102
+focus result is -2533
+page faults: 147
+total disk writes: 147
+total disk readings: 107
+focus result is -2533
+page faults: 119
+total disk writes: 119
+total disk readings: 80
+focus result is -2533
+page faults: 125
+total disk writes: 125
+total disk readings: 87
+focus result is -2533
+page faults: 119
+total disk writes: 119
+total disk readings: 82
+focus result is -2533
+page faults: 130
+total disk writes: 130
+total disk readings: 94
+focus result is -2533
+page faults: 117
+total disk writes: 117
+total disk readings: 82
+focus result is -2533
+page faults: 128
+total disk writes: 128
+total disk readings: 94
+focus result is -2533
+page faults: 107
+total disk writes: 107
+total disk readings: 74
+focus result is -2533
+page faults: 111
+total disk writes: 111
+total disk readings: 79
+focus result is -2533
+page faults: 108
+total disk writes: 108
+total disk readings: 77
+focus result is -2533
+page faults: 110
+total disk writes: 110
+total disk readings: 80
+focus result is -2533
+page faults: 103
+total disk writes: 103
+total disk readings: 74
+focus result is -2533
+page faults: 102
+total disk writes: 102
+total disk readings: 74
+focus result is -2533
+page faults: 96
+total disk writes: 96
+total disk readings: 69
+focus result is -2533
+page faults: 86
+total disk writes: 86
+total disk readings: 60
+focus result is -2533
+page faults: 89
+total disk writes: 89
+total disk readings: 64
+focus result is -2533
+page faults: 83
+total disk writes: 83
+total disk readings: 59
+focus result is -2533
+page faults: 89
+total disk writes: 89
+total disk readings: 66
+focus result is -2533
+page faults: 72
+total disk writes: 72
+total disk readings: 50
+focus result is -2533
+page faults: 71
+total disk writes: 71
+total disk readings: 50
+focus result is -2533
+page faults: 65
+total disk writes: 65
+total disk readings: 45
+focus result is -2533
+page faults: 67
+total disk writes: 67
+total disk readings: 48
+focus result is -2533
+page faults: 76
+total disk writes: 76
+total disk readings: 58
+focus result is -2533
+page faults: 63
+total disk writes: 63
+total disk readings: 46
+focus result is -2533
+page faults: 61
+total disk writes: 61
+total disk readings: 45
+focus result is -2533
+page faults: 55
+total disk writes: 55
+total disk readings: 40
+focus result is -2533
+page faults: 49
+total disk writes: 49
+total disk readings: 35
+focus result is -2533
+page faults: 49
+total disk writes: 49
+total disk readings: 36
+focus result is -2533
+page faults: 38
+total disk writes: 38
+total disk readings: 26
+focus result is -2533
+page faults: 37
+total disk writes: 37
+total disk readings: 26
+focus result is -2533
+page faults: 36
+total disk writes: 36
+total disk readings: 26
+focus result is -2533
+page faults: 31
+total disk writes: 31
+total disk readings: 22
+focus result is -2533
+page faults: 31
+total disk writes: 31
+total disk readings: 23
+focus result is -2533
+page faults: 23
+total disk writes: 23
+total disk readings: 16
+focus result is -2533
+page faults: 27
+total disk writes: 27
+total disk readings: 21
+focus result is -2533
+page faults: 18
+total disk writes: 18
+total disk readings: 13
+focus result is -2533
+page faults: 14
+total disk writes: 14
+total disk readings: 10
+focus result is -2533
+page faults: 8
+total disk writes: 8
+total disk readings: 5
+focus result is -2533
+page faults: 9
+total disk writes: 9
+total disk readings: 7
+focus result is -2533
+page faults: 3
+total disk writes: 3
+total disk readings: 2
+focus result is -2533
+page faults: 0
+total disk writes: 0
+total disk readings: 0
+focus result is -2533
+page faults: 297
+total disk writes: 297
+total disk readings: 199
+focus result is -2533
+page faults: 296
+total disk writes: 296
+total disk readings: 199
+focus result is -2533
+page faults: 293
+total disk writes: 293
+total disk readings: 197
+focus result is -2533
+page faults: 288
+total disk writes: 288
+total disk readings: 193
+focus result is -2533
+page faults: 285
+total disk writes: 285
+total disk readings: 191
+focus result is -2533
+page faults: 283
+total disk writes: 283
+total disk readings: 190
+focus result is -2533
+page faults: 277
+total disk writes: 277
+total disk readings: 185
+focus result is -2533
+page faults: 279
+total disk writes: 279
+total disk readings: 188
+focus result is -2533
+page faults: 276
+total disk writes: 276
+total disk readings: 186
+focus result is -2533
+page faults: 274
+total disk writes: 274
+total disk readings: 185
+focus result is -2533
+page faults: 273
+total disk writes: 273
+total disk readings: 185
+focus result is -2533
+page faults: 271
+total disk writes: 271
+total disk readings: 184
+focus result is -2533
+page faults: 270
+total disk writes: 270
+total disk readings: 184
+focus result is -2533
+page faults: 263
+total disk writes: 263
+total disk readings: 178
+focus result is -2533
+page faults: 260
+total disk writes: 260
+total disk readings: 176
+focus result is -2533
+page faults: 254
+total disk writes: 254
+total disk readings: 171
+focus result is -2533
+page faults: 248
+total disk writes: 248
+total disk readings: 166
+focus result is -2533
+page faults: 247
+total disk writes: 247
+total disk readings: 166
+focus result is -2533
+page faults: 245
+total disk writes: 245
+total disk readings: 165
+focus result is -2533
+page faults: 242
+total disk writes: 242
+total disk readings: 163
+focus result is -2533
+page faults: 244
+total disk writes: 244
+total disk readings: 166
+focus result is -2533
+page faults: 242
+total disk writes: 242
+total disk readings: 165
+focus result is -2533
+page faults: 241
+total disk writes: 241
+total disk readings: 165
+focus result is -2533
+page faults: 234
+total disk writes: 234
+total disk readings: 159
+focus result is -2533
+page faults: 228
+total disk writes: 228
+total disk readings: 154
+focus result is -2533
+page faults: 228
+total disk writes: 228
+total disk readings: 155
+focus result is -2533
+page faults: 226
+total disk writes: 226
+total disk readings: 154
+focus result is -2533
+page faults: 222
+total disk writes: 222
+total disk readings: 151
+focus result is -2533
+page faults: 219
+total disk writes: 219
+total disk readings: 149
+focus result is -2533
+page faults: 217
+total disk writes: 217
+total disk readings: 148
+focus result is -2533
+page faults: 214
+total disk writes: 214
+total disk readings: 146
+focus result is -2533
+page faults: 210
+total disk writes: 210
+total disk readings: 143
+focus result is -2533
+page faults: 203
+total disk writes: 203
+total disk readings: 137
+focus result is -2533
+page faults: 200
+total disk writes: 200
+total disk readings: 135
+focus result is -2533
+page faults: 198
+total disk writes: 198
+total disk readings: 134
+focus result is -2533
+page faults: 191
+total disk writes: 191
+total disk readings: 128
+focus result is -2533
+page faults: 188
+total disk writes: 188
+total disk readings: 126
+focus result is -2533
+page faults: 187
+total disk writes: 187
+total disk readings: 126
+focus result is -2533
+page faults: 187
+total disk writes: 187
+total disk readings: 127
+focus result is -2533
+page faults: 186
+total disk writes: 186
+total disk readings: 127
+focus result is -2533
+page faults: 186
+total disk writes: 186
+total disk readings: 128
+focus result is -2533
+page faults: 186
+total disk writes: 186
+total disk readings: 129
+focus result is -2533
+page faults: 185
+total disk writes: 185
+total disk readings: 129
+focus result is -2533
+page faults: 185
+total disk writes: 185
+total disk readings: 130
+focus result is -2533
+page faults: 185
+total disk writes: 185
+total disk readings: 131
+focus result is -2533
+page faults: 184
+total disk writes: 184
+total disk readings: 131
+focus result is -2533
+page faults: 184
+total disk writes: 184
+total disk readings: 132
+focus result is -2533
+page faults: 184
+total disk writes: 184
+total disk readings: 133
+focus result is -2533
+page faults: 184
+total disk writes: 184
+total disk readings: 134
+focus result is -2533
+page faults: 182
+total disk writes: 182
+total disk readings: 133
+focus result is -2533
+page faults: 180
+total disk writes: 180
+total disk readings: 132
+focus result is -2533
+page faults: 178
+total disk writes: 178
+total disk readings: 131
+focus result is -2533
+page faults: 176
+total disk writes: 176
+total disk readings: 130
+focus result is -2533
+page faults: 173
+total disk writes: 173
+total disk readings: 128
+focus result is -2533
+page faults: 171
+total disk writes: 171
+total disk readings: 127
+focus result is -2533
+page faults: 168
+total disk writes: 168
+total disk readings: 125
+focus result is -2533
+page faults: 166
+total disk writes: 166
+total disk readings: 124
+focus result is -2533
+page faults: 163
+total disk writes: 163
+total disk readings: 122
+focus result is -2533
+page faults: 158
+total disk writes: 158
+total disk readings: 118
+focus result is -2533
+page faults: 154
+total disk writes: 154
+total disk readings: 115
+focus result is -2533
+page faults: 151
+total disk writes: 151
+total disk readings: 113
+focus result is -2533
+page faults: 147
+total disk writes: 147
+total disk readings: 110
+focus result is -2533
+page faults: 144
+total disk writes: 144
+total disk readings: 108
+focus result is -2533
+page faults: 141
+total disk writes: 141
+total disk readings: 106
+focus result is -2533
+page faults: 138
+total disk writes: 138
+total disk readings: 104
+focus result is -2533
+page faults: 135
+total disk writes: 135
+total disk readings: 102
+focus result is -2533
+page faults: 133
+total disk writes: 133
+total disk readings: 101
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 70
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 71
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 72
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 73
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 74
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 75
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 76
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 77
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 78
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 79
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 80
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 81
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 82
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 83
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 84
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 85
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 86
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 87
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 88
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 89
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 90
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 91
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 92
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 93
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 94
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 95
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 96
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 97
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 98
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 99
+focus result is -2533
+page faults: 101
+total disk writes: 101
+total disk readings: 100
+focus result is -2533
+page faults: 0
+total disk writes: 0
+total disk readings: 0
